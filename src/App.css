@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+/* Slick slider default styles */
+
+
+body {
+  background: var(--second-bg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  filter: brightness(90%);  /* Slightly dims the image for better readability */
+}
+:root{
+  --first : #196ca8;
+  /* --second : #101526; */
+  --second-bg: url('https://i.pinimg.com/736x/a6/1c/79/a61c79900bb5cf6bb81accc744917234.jpg');
+  --third : #08184d;
+  --first : #196ca8;
+  /* --second : #19488e; */
+  /* --second-bg: url('https://i.pinimg.com/736x/73/e6/fa/73e6fa419a58b3555cb8eb42068dbf5a.jpg'); */
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+html{
+  overflow-x: hidden;
+}
+body{
+  background-color: var(--second);
+}
+span{
+  color: var(--first);
+}
+:focus{
+  outline: none;
+}
+
